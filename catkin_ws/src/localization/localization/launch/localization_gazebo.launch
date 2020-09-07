@@ -1,0 +1,7 @@
+<launch>
+
+  <!-- ekf -->
+  <remap from="/fix" to="/gps"/>
+  <node pkg="localization" type="gps_utm.py" name="gps_utm" clear_params="true" required="true"/>
+
+</launch>

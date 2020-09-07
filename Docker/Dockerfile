@@ -82,6 +82,7 @@ RUN apt-get -o Acquire::ForceIPv4=true update && apt-get -o Acquire::ForceIPv4=t
     ros-melodic-ddynamic-reconfigure \
     ros-melodic-rosserial-arduino \
     ros-melodic-rosserial \
+    ros-melodic-roslint \
     && rm -rf /var/lib/apt/lists/*
 
 ####################################### procman ###########################################
